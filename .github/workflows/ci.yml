@@ -167,3 +167,5 @@ jobs:
         run: |
           docker push \
             ${{ vars.ACR_LOGIN_SERVER }}/${{ matrix.image }}:latest
+
+# CI trigger test
